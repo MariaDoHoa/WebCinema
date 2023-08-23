@@ -1,0 +1,140 @@
+.Paymento {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+
+    >div {
+        background-color: rgb(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: white;
+
+        .selectionTicket {
+            width: 70%;
+            padding-right: 20px;
+
+            .title {
+                // display: flex;
+                // justify-content: space-between;
+
+                h1 {
+                    color: white;
+                    font-weight: bold;
+                    padding-bottom: 20px;
+                    font-size: 20px;
+                }
+            }
+
+            .loaive {
+                text-align: center;
+
+                form {
+
+                    .banking {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .main {
+                            padding-top: 20px;
+                            width: 30%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            div {
+                                width: 50%;
+                                display: flex;
+                                padding-bottom: 10px;
+
+                                input {
+                                    margin-right: 5px;
+
+                                }
+
+                                img {
+                                    margin-right: 5px;
+                                }
+
+                                label {
+                                    display: flex;
+                                    align-items: center;
+
+                                }
+                            }
+                        }
+
+
+
+                        .inputbank {
+                            display: flex;
+                            padding: 0px 5px;
+                        }
+                    }
+
+                    .infoBank {
+
+                        div {
+
+                            input {
+                                margin-top: 20px;
+                                width: 80%;
+                                padding: 10px;
+                                //box-shadow: 5px 5px gray;
+                                border-radius: 5px;
+                                color: white;
+                                background-color: rgb(255, 255, 255, 0.3);
+                                box-shadow: -2px 2px 0px 0px white;
+                            }
+
+                            span {
+                                color: rgb(255, 0, 0);
+                                box-sizing: border-box;
+                            }
+
+                        }
+                    }
+
+                    .bnt {
+                        text-align: center;
+
+                        button {
+                            border: 1px solid white;
+                            padding: 10px 40px;
+                            font-weight: bold;
+                            margin-top: 20px;
+                            border-radius: 30px;
+                            margin-right: 10px;
+                        }
+
+                        button:hover {
+                            background-color: #006a6a;
+                            color: #f4f4fe;
+                        }
+                    }
+                }
+            }
+        }
+
+        .infoTicket {
+            width: 30%;
+            padding-top: 50px;
+
+            .name {
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            .subname {
+
+                font-size: 17px;
+            }
+
+            span {
+                font-weight: bold;
+            }
+        }
+    }
+}

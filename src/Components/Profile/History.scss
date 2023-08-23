@@ -1,0 +1,59 @@
+.History {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+
+    >div {
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0px 0px 20px 0px white;
+
+        .tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .Content {
+            width: 100%;
+            margin-bottom: 20px;
+            background-color: #f4f4fe;
+            box-sizing: border-box;
+
+            table {
+                width: 100%;
+
+                thead {
+                    tr {
+                        th {
+                            background-color: salmon;
+                            padding: 10px;
+                            text-align: start;
+                            border: 1px solid black;
+                        }
+                    }
+                }
+
+                tbody {
+                    .bgFisrt {
+                        background-color: #006a6a;
+                        color: white;
+                    }
+
+                    tr {
+                        td {
+                            padding: 10px;
+                            border: 1px solid black;
+                            text-align: start;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

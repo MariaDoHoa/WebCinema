@@ -1,0 +1,144 @@
+.Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    flex-direction: column;
+    //background-color: #193540;
+
+    .tab {
+        margin-top: 70px;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .mainCarMovie {
+            width: 25%;
+            height: 550px;
+            box-sizing: border-box;
+
+            div {
+                margin: 20px;
+                box-sizing: border-box;
+                position: relative;
+                color: white;
+
+                >h3 {
+                    font-weight: bold;
+                    font-size: 20px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    max-width: 15em;
+                }
+
+                p {
+                    color: lightblue;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    max-width: 20em;
+                }
+
+                img {
+                    box-shadow: 0px 0px 7px 0px white;
+                    transition: all .2s ease-in-out;
+                }
+
+                img:hover {
+                    box-shadow: 0px 0px 40px 0px white;
+                    -ms-transform: scale(1.05);
+                    /* IE 9 */
+                    -webkit-transform: scale(1.05);
+                    /* Safari 3-8 */
+                    transform: scale(1.05);
+                }
+
+                button {
+                    position: absolute;
+                    top: 10px;
+                    left: 10px;
+                    background-color: #ff8259;
+                    padding: 10px 20px;
+                    border-radius: 10px;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                button:hover:not(.active) {
+                    background-color: #006a6a;
+                }
+            }
+
+        }
+
+        .seemore {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+
+            >div {
+                text-align: end;
+                color: white;
+                //border: 1px solid white;
+                padding: 5px 20px;
+                box-shadow: 0px 0px 5px 0px white;
+                border-radius: 10px;
+            }
+
+        }
+    }
+
+    // .Slider {
+    //     position: relative;
+    // }
+
+    // .NavBar {
+    //     width: 100%;
+    //     background: linear-gradient(0deg, rgba(194, 221, 243, 0.4) -50%, rgba(4, 36, 59, 0.8) 100%, );
+    //     display: flex;
+    //     justify-content: center;
+    //     position: absolute;
+    //     top: 76px;
+    //     left: 0px;
+
+    //     ul {
+    //         list-style-type: none;
+    //         margin: 0;
+    //         padding: 0;
+    //         overflow: hidden;
+    //         width: 80%;
+
+    //         li {
+    //             float: left;
+    //             width: 25%;
+    //             //border-right: 1px solid white;
+
+    //             a {
+    //                 display: block;
+    //                 color: white;
+    //                 text-align: center;
+    //                 padding: 10px;
+    //                 text-decoration: none;
+    //                 font-weight: bold;
+    //             }
+
+    //             // a:hover:not(.active) {
+    //             //     background-color: #111;
+    //             // }
+
+    //             // .active {
+    //             //     background-color: #04AA6D;
+    //             // }
+    //             a:hover {
+    //                 color: #ff8259;
+    //             }
+    //         }
+    //     }
+    // }
+}

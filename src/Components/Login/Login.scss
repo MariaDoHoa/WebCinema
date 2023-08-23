@@ -1,0 +1,63 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+    >div {
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0px 0px 30px 0px white;
+
+        .tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .tab1 {
+                width: 50%;
+                text-align: center;
+            }
+
+            .tab2 {
+                width: 50%;
+                text-align: center;
+            }
+        }
+
+        .Content {
+            padding-bottom: 20px;
+
+            p {
+                color: white;
+            }
+
+            .ip1 {
+                margin-top: 20px;
+                width: 100%;
+                padding: 10px;
+            }
+
+            .ip2 {
+                margin-top: 20px;
+                width: 100%;
+                padding: 10px;
+            }
+
+            span {
+                color: red;
+            }
+
+            button {
+                margin-top: 20px;
+                width: 100%;
+                padding: 10px;
+                background-color: salmon;
+                color: white;
+                font-weight: bolder;
+            }
+        }
+    }
+}

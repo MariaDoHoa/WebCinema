@@ -1,0 +1,14 @@
+const actMovieToCinema = {
+    GET_BOOKING:"GET_BOOKING",
+    SET_BOOKING:"SET_BOOKING",
+
+    RESET_MOVIE_ID:"RESET_MOVIE_ID",
+
+    GET_MOVIE_ID_1:"GET_MOVIE_ID_1",
+    SET_MOVIE_ID_1:"SET_MOVIE_ID_1",
+
+    GET_MOVIE_DATES:"GET_MOVIE_DATES",
+    SET_MOVIE_DATES:"SET_MOVIE_DATES"
+}
+
+export default actMovieToCinema

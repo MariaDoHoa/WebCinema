@@ -1,0 +1,232 @@
+.TicketCenima {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+
+    >div {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+        .SelectionMovie {
+            width: 33.33%;
+            background-color: rgba(255, 255, 255, 0.1);
+            /* Black w/opacity/see-through */
+            color: white;
+
+            table {
+                width: 100%;
+
+                thead {
+                    border: 1px solid white;
+
+                    th {
+                        padding: 10px;
+                        color: white;
+                        background-color: #006a6a;
+                    }
+                }
+
+                tbody {
+                    //border: 1px solid white;
+                    cursor: pointer;
+
+                    tr {
+                        border: 1px solid white;
+
+                        td {
+                            display: flex;
+                            justify-content: center;
+                            padding: 10px;
+                            box-sizing: border-box;
+
+                            .im {
+                                width: 30%;
+
+                                img {
+                                    width: 100%;
+                                }
+
+                            }
+
+                            .content {
+                                padding-left: 10px;
+                                width: 70%;
+                                font-size: 12px;
+
+                                .p1 {
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+
+                    tr:hover {
+                        background-color: #006a6a;
+                        color: #f4f4fe;
+                    }
+                }
+            }
+        }
+
+        .SelectionCenima {
+            width: 33.33%;
+            background-color: rgba(255, 255, 255, 0.1);
+            /* Black w/opacity/see-through */
+            color: white;
+
+            table {
+                width: 100%;
+
+                thead {
+                    border: 1px solid white;
+
+                    th {
+                        padding: 10px;
+                        color: white;
+                        background-color: #006a6a;
+                    }
+                }
+
+                tbody {
+                    //border: 1px solid white;
+                    cursor: pointer;
+
+                    tr {
+                        border: 1px solid white;
+
+                        td {
+                            display: flex;
+                            justify-content: center;
+                            padding: 10px;
+                            box-sizing: border-box;
+
+                            .im {
+                                width: 30%;
+
+                                img {
+                                    width: 100%;
+                                }
+
+                            }
+
+                            .content {
+                                padding-left: 10px;
+                                width: 70%;
+                                font-size: 12px;
+
+                                .p1 {
+                                    font-weight: bold;
+                                }
+                            }
+                        }
+                    }
+
+                    tr:hover {
+                        background-color: #006a6a;
+                        color: #f4f4fe;
+                    }
+                }
+            }
+        }
+
+        .SeclectionDates {
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 33.33%;
+            color: white;
+
+            table {
+                width: 100%;
+
+                thead {
+                    border: 1px solid white;
+
+                    th {
+                        padding: 10px;
+                        color: white;
+                        background-color: #006a6a;
+                    }
+                }
+
+                tbody {
+                    border: 1px solid black;
+                    cursor: pointer;
+
+                    tr {
+                        border: 1px solid white;
+                    }
+
+                    td {
+                        padding: 10px;
+                        box-sizing: border-box;
+
+                        .phude {
+                            display: flex;
+                            gap: 10px;
+                            box-sizing: border-box;
+
+                            p {
+                                width: 20%;
+                                font-size: 15px;
+                            }
+
+                            .giochieu {
+                                width: 80%;
+                                display: flex;
+                                flex-wrap: wrap;
+
+                                button {
+                                    margin: 5px;
+                                    padding: 0px 10px;
+                                    border: 1px solid gray;
+                                    text-align: center;
+                                    cursor: pointer;
+                                }
+
+                                button:hover {
+                                    background-color: #006a6a;
+                                    color: #f4f4fe;
+                                }
+                            }
+                        }
+
+                        .longtieng {
+                            padding-top: 20px;
+                            display: flex;
+                            gap: 10px;
+                            box-sizing: border-box;
+
+                            p {
+                                width: 20%;
+                                font-size: 15px;
+                            }
+
+                            .giochieu {
+                                width: 80%;
+                                display: flex;
+                                flex-wrap: wrap;
+
+                                button {
+                                    margin: 5px;
+                                    padding: 0px 10px;
+                                    border: 1px solid gray;
+                                    text-align: center;
+                                    cursor: pointer;
+                                }
+
+                                button:hover {
+                                    background-color: #006a6a;
+                                    color: #f4f4fe;
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+}

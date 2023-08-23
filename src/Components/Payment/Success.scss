@@ -1,0 +1,100 @@
+.Success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+
+    >div {
+        background-color: #f4f4fe;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+        .ticket{
+            display: flex;
+            justify-content: center;
+            //background-color: red;
+
+            div {
+                .success{
+                    display: flex;
+                    justify-content: center;
+
+                    img{
+                        width: 15%;
+                    }
+                }
+
+                .infoTicket {
+                    width: 100%;
+                    padding-top: 25px;
+
+                    >div{
+                        text-align: center;
+                        width: 100%;
+
+                        .posterTicket{
+                            padding: 0px 30%;
+                        }   
+
+                        .titleTicket{
+                            padding: 0px 30%;
+                        }
+
+                        .infoTicket{
+                            padding: 0px 30%;
+                        }
+
+                        .name {
+                            font-weight: bold;
+                            font-size: 25px;
+                        }
+            
+                        .subname {
+            
+                            font-size: 17px;
+                        }
+            
+                        span {
+                            font-weight: bold;
+                        }
+            
+                        .bnt {
+                            text-align: center;
+            
+                            button {
+                                border: 1px solid #009d96;
+                                padding: 10px 40px;
+                                font-weight: bold;
+                                margin-top: 20px;
+                                border-radius: 30px;
+                            }
+            
+                            button:hover {
+                                background-color: #009d96;
+                                color: #f4f4fe;
+                            }
+                        }
+                    }
+        
+                   
+        
+        
+        
+                }
+            }
+        }
+}
+
+@media print {
+    /* Hide all elements except the print-content div */
+    body *:not(.print-content) {
+      display: none;
+    }
+  
+    /* Adjust margins and paddings as needed */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  }

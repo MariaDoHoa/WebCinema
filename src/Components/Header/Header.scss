@@ -1,0 +1,93 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.2);
+    flex-direction: column;
+
+    >div {
+        .Logo {
+            padding: 20px 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 100px;
+                cursor: pointer;
+            }
+
+            input {
+                width: 50%;
+                border: unset;
+                padding: 5px 30px;
+                border-radius: 10px;
+                background-color: unset;
+                //background-color: rgb(255, 255, 255, 0.5);
+                color: white;
+                box-shadow: 0px 0px 3px 0px white;
+            }
+
+            button {
+                background-color: #006a6a;
+                color: white;
+                padding: 5px 20px;
+                border-radius: 20px;
+                font-weight: bold;
+            }
+
+            button:hover {
+                color: #ff8259;
+            }
+        }
+    }
+
+    .Slider {
+        position: relative;
+    }
+
+    .NavBar {
+        width: 100%;
+        background: linear-gradient(0deg, rgba(194, 221, 243, 0.4) -50%, rgba(4, 36, 59, 0.8) 100%, );
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: 74px;
+        left: 0px;
+        border: unset;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 80%;
+
+            li {
+                float: left;
+                width: 25%;
+                //border-right: 1px solid white;
+
+                a {
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 10px;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+
+                // a:hover:not(.active) {
+                //     background-color: #111;
+                // }
+
+                // .active {
+                //     background-color: #04AA6D;
+                // }
+                a:hover {
+                    color: #ff8259;
+                }
+            }
+        }
+    }
+}

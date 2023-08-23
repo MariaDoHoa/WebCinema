@@ -1,0 +1,53 @@
+.UpdateUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+    >div {
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0px 0px 20px 0px white;
+
+        .tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .Content {
+            padding-bottom: 20px;
+
+            p {
+                color: white;
+                padding-top: 15px;
+            }
+
+            input {
+                width: 100%;
+                padding: 10px;
+            }
+
+            span {
+                color: red;
+            }
+
+            button {
+                margin-top: 20px;
+                width: 100%;
+                padding: 10px;
+                background-color: salmon;
+                color: white;
+                font-weight: bolder;
+            }
+
+            button:hover {
+                box-shadow: 0px 0px 3px 0px white;
+                color: #006a6a;
+            }
+        }
+    }
+}

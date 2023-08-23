@@ -1,0 +1,105 @@
+.SelectionSeat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+
+    >div {
+        background-color: rgb(255, 255, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        color: white;
+
+        .selectionTicket {
+            width: 70%;
+
+            h1 {
+                font-weight: bold;
+            }
+
+            .loaive {
+                h3 {
+                    text-align: center;
+                    border-bottom: 1px solid white;
+                }
+
+                .seat-cinema {
+                    text-align: center;
+                    margin-top: 20px;
+
+                    span {
+                        padding: 10px;
+                    }
+
+                    span:before {
+                        content: "";
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        margin-right: 5px;
+
+                        .seat-cinema-selected:before {
+                            background-color: #7dc71d;
+                        }
+                    }
+
+                }
+
+                .seat-cinema-selected::before {
+                    background-color: rgb(0, 157, 150);
+                }
+
+                .seat-cinema-unavailable::before {
+                    background-color: gray;
+                }
+
+                .seat-cinema-couple::before {
+                    background-color: green;
+                }
+            }
+        }
+
+        .infoTicket {
+            width: 30%;
+            padding-top: 70px;
+            padding-left: 20px;
+            box-sizing: border-box;
+
+            .name {
+                font-weight: bold;
+                font-size: 25px;
+            }
+
+            .subname {
+
+                font-size: 17px;
+            }
+
+            span {
+                font-weight: bold;
+            }
+
+            .bnt {
+                text-align: center;
+
+                button {
+                    border: 1px solid white;
+                    padding: 10px 40px;
+                    font-weight: bold;
+                    margin-top: 20px;
+                    border-radius: 30px;
+                    margin-right: 10px;
+                }
+
+                button:hover {
+                    background-color: #006a6a;
+                    color: #f4f4fe;
+                }
+            }
+
+
+
+        }
+    }
+}

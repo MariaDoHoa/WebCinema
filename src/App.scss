@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.App {
+    background-image: url("./br2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    .tab {
+        display: flex;
+        padding: 10px 8.9%;
+        font-size: 20px;
+        font-weight: bolder;
+
+        .tab1 {
+            padding: 0px 20px;
+            //border-right: 2px solid #009d96;
+        }
+
+        .tab1:hover {
+            color: #ff8259;
+        }
+
+        .tab2 {
+            padding: 0px 20px;
+        }
+
+        .tab2:hover {
+            color: #ff8259;
+        }
+    }
+}
+
+.Container {
+    width: 80%;
+}

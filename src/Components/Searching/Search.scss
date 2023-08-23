@@ -1,0 +1,85 @@
+.Search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+
+    >div {
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        margin: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+
+        .infoMovie {
+            //padding-bottom: 20px;
+            box-sizing: border-box;
+            color: white;
+            width: calc(100% - 10px); // Adjust as needed
+            display: flex;
+            flex-direction: column;
+
+            //margin-bottom: 10px;
+            .content {
+                padding-left: 0px;
+                box-sizing: border-box;
+
+                div {
+                    box-sizing: border-box;
+
+                    h2 {
+                        color: white;
+                        font-weight: bold;
+                        font-size: 24px;
+                    }
+
+                    h3 {
+                        font-size: 14px;
+                    }
+
+                    p {
+                        font-weight: bold;
+                        color: #ff8259;
+
+                        span {
+                            color: white;
+                        }
+                    }
+                }
+            }
+
+            .btnMuave {
+                margin-top: 20px;
+                background-color: #ff8259;
+                padding: 10px 20px;
+                border-radius: 10px;
+                color: white;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: #006a6a;
+                }
+            }
+        }
+
+        // .image-container {
+        //     width: 50%; // Adjust as needed
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     overflow: hidden;
+
+        //     img {
+        //         width: 100%;
+        //         height: auto;
+        //     }
+        // }
+
+        // Rest of the styles...
+    }
+
+    .Container {
+        // Rest of the styles...
+    }
+}
